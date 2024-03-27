@@ -14,7 +14,7 @@ const mongoose = require('mongoose');
 const { collection } = require('./schema.js')
 
 // Replace <connection_string> with your actual MongoDB connection string
-const uri = "mongodb+srv://manish:KD7YJOSQTewRsTKf@cluster0.dsuwc02.mongodb.net/?retryWrites=true&w=majority";
+const uri = "MONGODB URI";
 
 mongoose.connect(uri, {
   useNewUrlParser: true,
